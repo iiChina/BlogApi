@@ -13,7 +13,7 @@ namespace Blog.Data.Mappings
 
             // Chave Primária
             builder.HasKey(x => x.Id);
-
+        
             // Identity
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()

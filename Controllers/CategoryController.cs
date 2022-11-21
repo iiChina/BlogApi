@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 namespace BlogApi.Controllers
 {
     [ApiController]
-    
     public class CategoryController : ControllerBase
     {
         //1- Uma convenção é mapear as Actions dessas controllers utilizando o nome da controller no plural na URL. 
